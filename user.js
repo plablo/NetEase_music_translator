@@ -3,7 +3,7 @@
 // @name         NetEase Music Cloud Translator
 // @namespace    https://github.com/plablo/NetEase_music_translator
 // @version      0.2
-// @description  Translate from the chinese to your language
+// @description  Translate from the chinese to your language at music.183.com
 // @author       Plablo
 // @include      http://music.163.com/*
 // @grant        none
