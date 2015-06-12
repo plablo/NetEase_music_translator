@@ -1,2 +1,4 @@
-# NetEase_music_translator
-NetEase Cloud Music userscript mod for translate the webpage from chinese to another language using Google Translator
+# NetEase Music Cloud Translator
+NetEase Cloud Music userscript mod for translate the webpage from chinese to another language using Google Translator.
+
+Add this script and go to http://music.163.com
