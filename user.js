@@ -1,5 +1,5 @@
 // ==UserScript==
-// @id		 NetEase_Music_Cloud_Translator
+// @id           NetEase_Music_Cloud_Translator
 // @name         NetEase Music Cloud Translator
 // @namespace    https://github.com/plablo/NetEase_music_translator
 // @version      0.3
