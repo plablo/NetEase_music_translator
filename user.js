@@ -2,10 +2,13 @@
 // @id		 NetEase_Music_Cloud_Translator
 // @name         NetEase Music Cloud Translator
 // @namespace    https://github.com/plablo/NetEase_music_translator
-// @version      0.2
+// @version      0.3
 // @description  Translate from the chinese to your language at music.163.com
 // @author       Plablo
 // @include      http://music.163.com/*
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+// @compatible   chrome
+// @compatible   firefox
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
@@ -35,8 +38,8 @@ google_tt_script_link.type = 'text/javascript'; // add type attribute
 google_tt_script_link.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
 container_div.appendChild(google_tt_script_link); // Insert it as the last child of body
 
-//Append to the end
-document.body.appendChild(container_div);
+//Append to the end of the main body
+$('body').filter(function(){return this.id.match(/auto-id-./);}).get(0).appendChild(container_div);
 
 //Hide the Google Translator Bar
 var node = document.createElement("style"); //iframe.goog-te-banner-frame.skiptranslate {display: none !important;} .skiptranslate {display: none !important;}
