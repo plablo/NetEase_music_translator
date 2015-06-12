@@ -7,6 +7,7 @@
 // @author       Plablo
 // @include      http://music.163.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+// @updateURL    https://raw.githubusercontent.com/plablo/NetEase_music_translator/master/user.js
 // @compatible   chrome
 // @compatible   firefox
 // @grant        none
